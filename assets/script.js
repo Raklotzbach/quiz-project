@@ -69,7 +69,7 @@ function displayQuestion1() {
     let questionEl =document.querySelector("#questionText");
     questionEl.textContent = question.questionText;
 
-    var optionAnswers = ["Red", "Blue", "Yellow", "Purple"]
+    var optionAnswers = ["strings", "booleans", "Alerts", "numbers"]
     var correct = '';
     option1.textContent = optionAnswers [0]
     option2.textContent = optionAnswers [1]
@@ -94,7 +94,7 @@ function displayQuestion2() {
     let questionEl =document.querySelector("#questionText");
     questionEl.textContent = question.questionText;
 
-    var optionAnswers = ["New Mexico", "Arizona", "Hawaii", "Japan"]
+    var optionAnswers = ["quotes", "paranthesis", "curly brackets", "square brackets"]
     
     option1.textContent = optionAnswers [0]
     option2.textContent = optionAnswers [1]
@@ -119,7 +119,7 @@ function displayQuestion3() {
     let questionEl =document.querySelector("#questionText");
     questionEl.textContent = question.questionText;
 
-    var optionAnswers = ["Birds", "Pizza", "Puppies", "Fish"]
+    var optionAnswers = ["numbers and strings", "other arrays", "booleans", "All of the above"]
     
     option1.textContent = optionAnswers [0]
     option2.textContent = optionAnswers [1]
@@ -144,7 +144,7 @@ function displayQuestion4() {
     let questionEl =document.querySelector("#questionText");
     questionEl.textContent = question.questionText;
 
-    var optionAnswers = ["Fourty", "For", "Four", "Fourteen"]
+    var optionAnswers = ["paranthesis", "commas", "curly brackets", "mittens"]
     
     option1.textContent = optionAnswers [0]
     option2.textContent = optionAnswers [1]
@@ -204,10 +204,10 @@ function renderMessage() {
 
 
 var questions = [
-    {questionText: "What color is the sun?"},
-    {questionText: "Where is the Grand Canyon?"},
-    {questionText: "What lives in water?"},
-    {questionText: "What is 2 plus 2?"}
+    {questionText: "Commonly Used Data Types DO NOT Include?"},
+    {questionText: "The Condition in an if/else Statement is Enclosed within?"},
+    {questionText: "Arrays in Javascript can be used to store ______"},
+    {questionText: "String values must be enclosed within ______ when being assigned to variables?"}
 ]
 
 
