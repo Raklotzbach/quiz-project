@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(4, 2, 0);
+}
+
+body {
+    color: rgb(234, 239, 83);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.button {
+    display: block;
+    background-color: rgb(234, 239, 83);
+    color: rgb(4, 2, 0);
+}
+
+#startBtn:hover {
+    font-size: 16px;
+}
+
+#name {
+    color: white;
+}

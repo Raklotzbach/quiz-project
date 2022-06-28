@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <div>Timer:<span id="timer"></span></div>
+            <div id="high-scores" class="h-scores">High Scores</div>
+        </h1>
+    </header>
+
+    <main>
+        <section id="game-start" class="container">
+            <h2 id="title">Coding Quiz</h2>
+            <button id="startBtn" class="button">Start Game</button>
+        </section>
+
+        <section id="quiz-begin" class="quiz hide">
+            <h2 id="questionText">This would be the question text</h2>
+
+            <div id="quizButtons">
+                <button id="answer1" class="answerButton button"></button>
+                <button id="answer2" class="answerButton button"></button>
+                <button id="answer3" class="answerButton button"></button>
+                <button id="answer4" class="answerButton button"></button>
+            </div>
+
+        </section>
+
+        <section id="final-score" class="container hide">
+            <h2>Game Over! Your score is:  <span id=score> </span></h2>
+            <form id="form" class="submit-form">
+                <label for="name">Enter Your Name</label>
+                <input type="text" id="name" placeholder="Enter Name">
+                <button type="submit" id="submitButton" class="button">Submit</button>
+                <button id="playAgain" class="button">Play Again</button>
+            </form>
+            <h2>High Scores</h2>
+            <p id="winEl"></p>
+        </section>
+
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
